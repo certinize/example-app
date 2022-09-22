@@ -1,11 +1,11 @@
 [tool.poetry]
+authors = ["Hju Kneyck Flores <hjucode@gmail.com>"]
+description = ""
 name = "example-app"
 version = "0.1.0"
-description = ""
-authors = ["Hju Kneyck Flores <hjucode@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 starlite = "^1.20.0"
 uvicorn = "^0.18.3"
 
@@ -13,5 +13,5 @@ uvicorn = "^0.18.3"
 pytest = "^5.2"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
